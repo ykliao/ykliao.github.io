@@ -25,16 +25,17 @@ PanoramaStudioViewerParams = {
 	        "zoom": 1
 	    },
 	"camera": {
-	        "maxpan": 87.95159896283491,
-	        "maxtilt": 39.7118703593463,
+	        "maxpan": 133.22528363047,
+	        "maxtilt": 35.786061588330604,
 	        "minpan": 0,
-	        "mintilt": -41.19280460497312
+	        "mintilt": -45.21880064829822
 	    },
 	"id": "cygnus",
 	"image":{"baseindex":1,"bitmap":[{"back":{"src":"cygnus_tiles/cygnus_t_1b_%0y_%0x.jpg"},"down":{"src":"cygnus_tiles/cygnus_t_1d_%0y_%0x.jpg"},"front":{"src":"cygnus_tiles/cygnus_t_1f_%0y_%0x.jpg"},"height":25457,"left":{"src":"cygnus_tiles/cygnus_t_1l_%0y_%0x.jpg"},"right":{"src":"cygnus_tiles/cygnus_t_1r_%0y_%0x.jpg"},"tilesize":480,"up":{"src":"cygnus_tiles/cygnus_t_1u_%0y_%0x.jpg"},"width":25457},{"back":{"src":"cygnus_tiles/cygnus_t_2b_%0y_%0x.jpg"},"down":{"src":"cygnus_tiles/cygnus_t_2d_%0y_%0x.jpg"},"front":{"src":"cygnus_tiles/cygnus_t_2f_%0y_%0x.jpg"},"height":12729,"left":{"src":"cygnus_tiles/cygnus_t_2l_%0y_%0x.jpg"},"right":{"src":"cygnus_tiles/cygnus_t_2r_%0y_%0x.jpg"},"tilesize":480,"up":{"src":"cygnus_tiles/cygnus_t_2u_%0y_%0x.jpg"},"width":12729},{"back":{"src":"cygnus_tiles/cygnus_t_3b_%0y_%0x.jpg"},"down":{"src":"cygnus_tiles/cygnus_t_3d_%0y_%0x.jpg"},"front":{"src":"cygnus_tiles/cygnus_t_3f_%0y_%0x.jpg"},"height":6365,"left":{"src":"cygnus_tiles/cygnus_t_3l_%0y_%0x.jpg"},"right":{"src":"cygnus_tiles/cygnus_t_3r_%0y_%0x.jpg"},"tilesize":480,"up":{"src":"cygnus_tiles/cygnus_t_3u_%0y_%0x.jpg"},"width":6365},{"back":{"src":"cygnus_tiles/cygnus_t_4b_%0y_%0x.jpg"},"down":{"src":"cygnus_tiles/cygnus_t_4d_%0y_%0x.jpg"},"front":{"src":"cygnus_tiles/cygnus_t_4f_%0y_%0x.jpg"},"height":3183,"left":{"src":"cygnus_tiles/cygnus_t_4l_%0y_%0x.jpg"},"right":{"src":"cygnus_tiles/cygnus_t_4r_%0y_%0x.jpg"},"tilesize":480,"up":{"src":"cygnus_tiles/cygnus_t_4u_%0y_%0x.jpg"},"width":3183},{"back":{"src":"cygnus_tiles/cygnus_t_5b_%0y_%0x.jpg"},"down":{"src":"cygnus_tiles/cygnus_t_5d_%0y_%0x.jpg"},"front":{"src":"cygnus_tiles/cygnus_t_5f_%0y_%0x.jpg"},"height":1592,"left":{"src":"cygnus_tiles/cygnus_t_5l_%0y_%0x.jpg"},"right":{"src":"cygnus_tiles/cygnus_t_5r_%0y_%0x.jpg"},"tilesize":480,"up":{"src":"cygnus_tiles/cygnus_t_5u_%0y_%0x.jpg"},"width":1592},{"back":{"src":"cygnus_tiles/cygnus_t_6b_%0y_%0x.jpg"},"down":{"src":"cygnus_tiles/cygnus_t_6d_%0y_%0x.jpg"},"front":{"src":"cygnus_tiles/cygnus_t_6f_%0y_%0x.jpg"},"height":796,"left":{"src":"cygnus_tiles/cygnus_t_6l_%0y_%0x.jpg"},"right":{"src":"cygnus_tiles/cygnus_t_6r_%0y_%0x.jpg"},"tilesize":480,"up":{"src":"cygnus_tiles/cygnus_t_6u_%0y_%0x.jpg"},"width":796},{"back":{"src":"cygnus_tiles/cygnus_t_7b_%0y_%0x.jpg"},"down":{"src":"cygnus_tiles/cygnus_t_7d_%0y_%0x.jpg"},"front":{"src":"cygnus_tiles/cygnus_t_7f_%0y_%0x.jpg"},"height":398,"left":{"src":"cygnus_tiles/cygnus_t_7l_%0y_%0x.jpg"},"right":{"src":"cygnus_tiles/cygnus_t_7r_%0y_%0x.jpg"},"tilesize":480,"up":{"src":"cygnus_tiles/cygnus_t_7u_%0y_%0x.jpg"},"width":398}],"multilevel":true,"preview":{"src":"cygnus_tiles/cygnus_preview.jpg"},"projection":"cubic"},
 	"view": {
-	        "hfov": 79.16,
-	        "pan": 43.98,
+	        "hfov": 90,
+	        "pan": 66.61,
+	        "shortdescription": "Cygnus Region",
 	        "tilt": 0
 	    }
 },
