@@ -25,13 +25,13 @@ PanoramaStudioViewerParams = {
 	        "zoom": 1
 	    },
 	"camera": {
-	        "maxpan": 117.30643127364439,
-	        "maxtilt": 35.26322272457158,
+	        "maxpan": 114.26256077795782,
+	        "maxtilt": 33.74392220421394,
 	        "minpan": 0,
-	        "mintilt": -38.37107740153181
+	        "mintilt": -40.84278768233388
 	    },
 	"id": "cassiopeia",
-	"image":{"baseindex":1,"bitmap":[{"height":16353,"src":"cassiopeia_tiles/cassiopeia_t_1_%0y_%0x.jpg","tilesize":512,"width":26052},{"height":8177,"src":"cassiopeia_tiles/cassiopeia_t_2_%0y_%0x.jpg","tilesize":512,"width":13026},{"height":4089,"src":"cassiopeia_tiles/cassiopeia_t_3_%0y_%0x.jpg","tilesize":512,"width":6513},{"height":2045,"src":"cassiopeia_tiles/cassiopeia_t_4_%0y_%0x.jpg","tilesize":512,"width":3257},{"height":1023,"src":"cassiopeia_tiles/cassiopeia_t_5_%0y_%0x.jpg","tilesize":512,"width":1629},{"height":512,"src":"cassiopeia_tiles/cassiopeia_t_6_%0y_%0x.jpg","tilesize":512,"width":815}],"multilevel":true,"preview":{"src":"cassiopeia_tiles/cassiopeia_preview.jpg"},"projection":"planar"},
+	"image":{"baseindex":1,"bitmap":[{"height":16570,"src":"cassiopeia_tiles/cassiopeia_t_1_%0y_%0x.jpg","tilesize":518,"width":25384},{"height":8285,"src":"cassiopeia_tiles/cassiopeia_t_2_%0y_%0x.jpg","tilesize":518,"width":12692},{"height":4143,"src":"cassiopeia_tiles/cassiopeia_t_3_%0y_%0x.jpg","tilesize":518,"width":6346},{"height":2072,"src":"cassiopeia_tiles/cassiopeia_t_4_%0y_%0x.jpg","tilesize":518,"width":3173},{"height":1036,"src":"cassiopeia_tiles/cassiopeia_t_5_%0y_%0x.jpg","tilesize":518,"width":1587},{"height":518,"src":"cassiopeia_tiles/cassiopeia_t_6_%0y_%0x.jpg","tilesize":518,"width":794}],"multilevel":true,"preview":{"src":"cassiopeia_tiles/cassiopeia_preview.jpg"},"projection":"planar"},
 	"view": {
 	        "mode": "fitInWindow"
 	    }
