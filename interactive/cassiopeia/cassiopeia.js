@@ -25,13 +25,13 @@ PanoramaStudioViewerParams = {
 	        "zoom": 1
 	    },
 	"camera": {
-	        "maxpan": 120.20743301642179,
-	        "maxtilt": 64.62284204155137,
+	        "maxpan": 132.86084701815042,
+	        "maxtilt": 76.9651065186473,
 	        "minpan": 0,
-	        "mintilt": -35.798320709177816
+	        "mintilt": -40.98581993080585
 	    },
 	"id": "cassiopeia",
-	"image":{"baseindex":1,"bitmap":[{"height":22309,"src":"cassiopeia_tiles/cassiopeia_t_1_%0y_%0x.jpg","tilesize":480,"width":26705},{"height":11155,"src":"cassiopeia_tiles/cassiopeia_t_2_%0y_%0x.jpg","tilesize":480,"width":13353},{"height":5578,"src":"cassiopeia_tiles/cassiopeia_t_3_%0y_%0x.jpg","tilesize":480,"width":6677},{"height":2789,"src":"cassiopeia_tiles/cassiopeia_t_4_%0y_%0x.jpg","tilesize":480,"width":3339},{"height":1395,"src":"cassiopeia_tiles/cassiopeia_t_5_%0y_%0x.jpg","tilesize":480,"width":1670},{"height":698,"src":"cassiopeia_tiles/cassiopeia_t_6_%0y_%0x.jpg","tilesize":480,"width":835},{"height":349,"src":"cassiopeia_tiles/cassiopeia_t_7_%0y_%0x.jpg","tilesize":480,"width":418}],"multilevel":true,"preview":{"src":"cassiopeia_tiles/cassiopeia_preview.jpg"},"projection":"planar"},
+	"image":{"baseindex":1,"bitmap":[{"height":26204,"src":"cassiopeia_tiles/cassiopeia_t_1_%0y_%0x.jpg","tilesize":480,"width":29516},{"height":13102,"src":"cassiopeia_tiles/cassiopeia_t_2_%0y_%0x.jpg","tilesize":480,"width":14758},{"height":6551,"src":"cassiopeia_tiles/cassiopeia_t_3_%0y_%0x.jpg","tilesize":480,"width":7379},{"height":3276,"src":"cassiopeia_tiles/cassiopeia_t_4_%0y_%0x.jpg","tilesize":480,"width":3690},{"height":1638,"src":"cassiopeia_tiles/cassiopeia_t_5_%0y_%0x.jpg","tilesize":480,"width":1845},{"height":819,"src":"cassiopeia_tiles/cassiopeia_t_6_%0y_%0x.jpg","tilesize":480,"width":923},{"height":410,"src":"cassiopeia_tiles/cassiopeia_t_7_%0y_%0x.jpg","tilesize":480,"width":462}],"multilevel":true,"preview":{"src":"cassiopeia_tiles/cassiopeia_preview.jpg"},"projection":"planar"},
 	"view": {
 	        "mode": "fitInWindow"
 	    }
