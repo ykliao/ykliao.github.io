@@ -25,15 +25,17 @@ PanoramaStudioViewerParams = {
 	        "zoom": 1
 	    },
 	"camera": {
-	        "maxpan": 185.1067279113753,
-	        "maxtilt": 67.05655593448081,
+	        "maxpan": 132.54969749351778,
+	        "maxtilt": 60.252909865771315,
 	        "minpan": 0,
-	        "mintilt": -40.6224497396613
+	        "mintilt": -58.10158439171165
 	    },
 	"id": "cygnus",
-	"image":{"baseindex":1,"bitmap":[{"height":23914,"src":"cygnus_tiles/cygnus_t_1_%0y_%0x.jpg","tilesize":480,"width":41110},{"height":11957,"src":"cygnus_tiles/cygnus_t_2_%0y_%0x.jpg","tilesize":480,"width":20555},{"height":5979,"src":"cygnus_tiles/cygnus_t_3_%0y_%0x.jpg","tilesize":480,"width":10278},{"height":2990,"src":"cygnus_tiles/cygnus_t_4_%0y_%0x.jpg","tilesize":480,"width":5139},{"height":1495,"src":"cygnus_tiles/cygnus_t_5_%0y_%0x.jpg","tilesize":480,"width":2570},{"height":748,"src":"cygnus_tiles/cygnus_t_6_%0y_%0x.jpg","tilesize":480,"width":1285},{"height":374,"src":"cygnus_tiles/cygnus_t_7_%0y_%0x.jpg","tilesize":480,"width":643}],"multilevel":true,"preview":{"src":"cygnus_tiles/cygnus_preview.jpg"},"projection":"planar"},
+	"image":{"baseindex":1,"bitmap":[{"back":{"src":"cygnus_tiles/cygnus_t_1b_%0y_%0x.jpg"},"down":{"src":"cygnus_tiles/cygnus_t_1d_%0y_%0x.jpg"},"front":{"src":"cygnus_tiles/cygnus_t_1f_%0y_%0x.jpg"},"height":25457,"left":{"src":"cygnus_tiles/cygnus_t_1l_%0y_%0x.jpg"},"right":{"src":"cygnus_tiles/cygnus_t_1r_%0y_%0x.jpg"},"tilesize":480,"up":{"src":"cygnus_tiles/cygnus_t_1u_%0y_%0x.jpg"},"width":25457},{"back":{"src":"cygnus_tiles/cygnus_t_2b_%0y_%0x.jpg"},"down":{"src":"cygnus_tiles/cygnus_t_2d_%0y_%0x.jpg"},"front":{"src":"cygnus_tiles/cygnus_t_2f_%0y_%0x.jpg"},"height":12729,"left":{"src":"cygnus_tiles/cygnus_t_2l_%0y_%0x.jpg"},"right":{"src":"cygnus_tiles/cygnus_t_2r_%0y_%0x.jpg"},"tilesize":480,"up":{"src":"cygnus_tiles/cygnus_t_2u_%0y_%0x.jpg"},"width":12729},{"back":{"src":"cygnus_tiles/cygnus_t_3b_%0y_%0x.jpg"},"down":{"src":"cygnus_tiles/cygnus_t_3d_%0y_%0x.jpg"},"front":{"src":"cygnus_tiles/cygnus_t_3f_%0y_%0x.jpg"},"height":6365,"left":{"src":"cygnus_tiles/cygnus_t_3l_%0y_%0x.jpg"},"right":{"src":"cygnus_tiles/cygnus_t_3r_%0y_%0x.jpg"},"tilesize":480,"up":{"src":"cygnus_tiles/cygnus_t_3u_%0y_%0x.jpg"},"width":6365},{"back":{"src":"cygnus_tiles/cygnus_t_4b_%0y_%0x.jpg"},"down":{"src":"cygnus_tiles/cygnus_t_4d_%0y_%0x.jpg"},"front":{"src":"cygnus_tiles/cygnus_t_4f_%0y_%0x.jpg"},"height":3183,"left":{"src":"cygnus_tiles/cygnus_t_4l_%0y_%0x.jpg"},"right":{"src":"cygnus_tiles/cygnus_t_4r_%0y_%0x.jpg"},"tilesize":480,"up":{"src":"cygnus_tiles/cygnus_t_4u_%0y_%0x.jpg"},"width":3183},{"back":{"src":"cygnus_tiles/cygnus_t_5b_%0y_%0x.jpg"},"down":{"src":"cygnus_tiles/cygnus_t_5d_%0y_%0x.jpg"},"front":{"src":"cygnus_tiles/cygnus_t_5f_%0y_%0x.jpg"},"height":1592,"left":{"src":"cygnus_tiles/cygnus_t_5l_%0y_%0x.jpg"},"right":{"src":"cygnus_tiles/cygnus_t_5r_%0y_%0x.jpg"},"tilesize":480,"up":{"src":"cygnus_tiles/cygnus_t_5u_%0y_%0x.jpg"},"width":1592},{"back":{"src":"cygnus_tiles/cygnus_t_6b_%0y_%0x.jpg"},"down":{"src":"cygnus_tiles/cygnus_t_6d_%0y_%0x.jpg"},"front":{"src":"cygnus_tiles/cygnus_t_6f_%0y_%0x.jpg"},"height":796,"left":{"src":"cygnus_tiles/cygnus_t_6l_%0y_%0x.jpg"},"right":{"src":"cygnus_tiles/cygnus_t_6r_%0y_%0x.jpg"},"tilesize":480,"up":{"src":"cygnus_tiles/cygnus_t_6u_%0y_%0x.jpg"},"width":796},{"back":{"src":"cygnus_tiles/cygnus_t_7b_%0y_%0x.jpg"},"down":{"src":"cygnus_tiles/cygnus_t_7d_%0y_%0x.jpg"},"front":{"src":"cygnus_tiles/cygnus_t_7f_%0y_%0x.jpg"},"height":398,"left":{"src":"cygnus_tiles/cygnus_t_7l_%0y_%0x.jpg"},"right":{"src":"cygnus_tiles/cygnus_t_7r_%0y_%0x.jpg"},"tilesize":480,"up":{"src":"cygnus_tiles/cygnus_t_7u_%0y_%0x.jpg"},"width":398}],"multilevel":true,"preview":{"src":"cygnus_tiles/cygnus_preview.jpg"},"projection":"cubic"},
 	"view": {
-	        "mode": "fitInWindow"
+	        "hfov": 90,
+	        "pan": 66.27,
+	        "tilt": 0
 	    }
 },
 "version": "4.2"
