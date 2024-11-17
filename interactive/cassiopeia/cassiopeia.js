@@ -25,13 +25,13 @@ PanoramaStudioViewerParams = {
 	        "zoom": 1
 	    },
 	"camera": {
-	        "maxpan": 161.7406340057637,
-	        "maxtilt": 57.060518731988466,
+	        "maxpan": 172.01152737752165,
+	        "maxtilt": 60.172910662824215,
 	        "minpan": 0,
-	        "mintilt": -39.63112391930837
+	        "mintilt": -65.15273775216139
 	    },
 	"id": "cassiopeia",
-	"image":{"baseindex":1,"bitmap":[{"height":21474,"src":"cassiopeia_tiles/cassiopeia_t_1_%0y_%0x.jpg","tilesize":480,"width":35920},{"height":10737,"src":"cassiopeia_tiles/cassiopeia_t_2_%0y_%0x.jpg","tilesize":480,"width":17960},{"height":5369,"src":"cassiopeia_tiles/cassiopeia_t_3_%0y_%0x.jpg","tilesize":480,"width":8980},{"height":2685,"src":"cassiopeia_tiles/cassiopeia_t_4_%0y_%0x.jpg","tilesize":480,"width":4490},{"height":1343,"src":"cassiopeia_tiles/cassiopeia_t_5_%0y_%0x.jpg","tilesize":480,"width":2245},{"height":672,"src":"cassiopeia_tiles/cassiopeia_t_6_%0y_%0x.jpg","tilesize":480,"width":1123},{"height":336,"src":"cassiopeia_tiles/cassiopeia_t_7_%0y_%0x.jpg","tilesize":480,"width":562}],"multilevel":true,"preview":{"src":"cassiopeia_tiles/cassiopeia_preview.jpg"},"projection":"planar"},
+	"image":{"baseindex":1,"bitmap":[{"height":27833,"src":"cassiopeia_tiles/cassiopeia_t_1_%0y_%0x.jpg","tilesize":480,"width":38201},{"height":13917,"src":"cassiopeia_tiles/cassiopeia_t_2_%0y_%0x.jpg","tilesize":480,"width":19101},{"height":6959,"src":"cassiopeia_tiles/cassiopeia_t_3_%0y_%0x.jpg","tilesize":480,"width":9551},{"height":3480,"src":"cassiopeia_tiles/cassiopeia_t_4_%0y_%0x.jpg","tilesize":480,"width":4776},{"height":1740,"src":"cassiopeia_tiles/cassiopeia_t_5_%0y_%0x.jpg","tilesize":480,"width":2388},{"height":870,"src":"cassiopeia_tiles/cassiopeia_t_6_%0y_%0x.jpg","tilesize":480,"width":1194},{"height":435,"src":"cassiopeia_tiles/cassiopeia_t_7_%0y_%0x.jpg","tilesize":480,"width":597}],"multilevel":true,"preview":{"src":"cassiopeia_tiles/cassiopeia_preview.jpg"},"projection":"planar"},
 	"view": {
 	        "mode": "fitInWindow"
 	    }
