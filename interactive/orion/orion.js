@@ -25,15 +25,17 @@ PanoramaStudioViewerParams = {
 	        "zoom": 1
 	    },
 	"camera": {
-	        "maxpan": 14.71424970290613,
-	        "maxtilt": 6.980863982404775,
+	        "maxpan": 9.820126397666485,
+	        "maxtilt": 10.082032220018172,
 	        "minpan": 0,
-	        "mintilt": -2.508854768720576
+	        "mintilt": -5.33848309354528
 	    },
 	"id": "orion",
-	"image":{"baseindex":1,"bitmap":[{"height":2108,"src":"orion_tiles/orion_t_1_%y_%x.jpg","tilesize":527,"width":3269},{"height":1054,"src":"orion_tiles/orion_t_2_%y_%x.jpg","tilesize":527,"width":1635},{"height":527,"src":"orion_tiles/orion_t_3_%y_%x.jpg","tilesize":527,"width":818}],"multilevel":true,"preview":{"src":"orion_tiles/orion_preview.jpg"},"projection":"planar"},
+	"image":{"baseindex":1,"bitmap":[{"back":{"src":"orion_tiles/orion_t_1b_%0y_%0x.jpg"},"down":{"src":"orion_tiles/orion_t_1d_%0y_%0x.jpg"},"front":{"src":"orion_tiles/orion_t_1f_%0y_%0x.jpg"},"height":25461,"left":{"src":"orion_tiles/orion_t_1l_%0y_%0x.jpg"},"right":{"src":"orion_tiles/orion_t_1r_%0y_%0x.jpg"},"tilesize":480,"up":{"src":"orion_tiles/orion_t_1u_%0y_%0x.jpg"},"width":25461},{"back":{"src":"orion_tiles/orion_t_2b_%0y_%0x.jpg"},"down":{"src":"orion_tiles/orion_t_2d_%0y_%0x.jpg"},"front":{"src":"orion_tiles/orion_t_2f_%0y_%0x.jpg"},"height":12731,"left":{"src":"orion_tiles/orion_t_2l_%0y_%0x.jpg"},"right":{"src":"orion_tiles/orion_t_2r_%0y_%0x.jpg"},"tilesize":480,"up":{"src":"orion_tiles/orion_t_2u_%0y_%0x.jpg"},"width":12731},{"back":{"src":"orion_tiles/orion_t_3b_%0y_%0x.jpg"},"down":{"src":"orion_tiles/orion_t_3d_%0y_%0x.jpg"},"front":{"src":"orion_tiles/orion_t_3f_%0y_%0x.jpg"},"height":6366,"left":{"src":"orion_tiles/orion_t_3l_%0y_%0x.jpg"},"right":{"src":"orion_tiles/orion_t_3r_%0y_%0x.jpg"},"tilesize":480,"up":{"src":"orion_tiles/orion_t_3u_%0y_%0x.jpg"},"width":6366},{"back":{"src":"orion_tiles/orion_t_4b_%0y_%0x.jpg"},"down":{"src":"orion_tiles/orion_t_4d_%0y_%0x.jpg"},"front":{"src":"orion_tiles/orion_t_4f_%0y_%0x.jpg"},"height":3183,"left":{"src":"orion_tiles/orion_t_4l_%0y_%0x.jpg"},"right":{"src":"orion_tiles/orion_t_4r_%0y_%0x.jpg"},"tilesize":480,"up":{"src":"orion_tiles/orion_t_4u_%0y_%0x.jpg"},"width":3183},{"back":{"src":"orion_tiles/orion_t_5b_%0y_%0x.jpg"},"down":{"src":"orion_tiles/orion_t_5d_%0y_%0x.jpg"},"front":{"src":"orion_tiles/orion_t_5f_%0y_%0x.jpg"},"height":1592,"left":{"src":"orion_tiles/orion_t_5l_%0y_%0x.jpg"},"right":{"src":"orion_tiles/orion_t_5r_%0y_%0x.jpg"},"tilesize":480,"up":{"src":"orion_tiles/orion_t_5u_%0y_%0x.jpg"},"width":1592},{"back":{"src":"orion_tiles/orion_t_6b_%0y_%0x.jpg"},"down":{"src":"orion_tiles/orion_t_6d_%0y_%0x.jpg"},"front":{"src":"orion_tiles/orion_t_6f_%0y_%0x.jpg"},"height":796,"left":{"src":"orion_tiles/orion_t_6l_%0y_%0x.jpg"},"right":{"src":"orion_tiles/orion_t_6r_%0y_%0x.jpg"},"tilesize":480,"up":{"src":"orion_tiles/orion_t_6u_%0y_%0x.jpg"},"width":796},{"back":{"src":"orion_tiles/orion_t_7b_%0y_%0x.jpg"},"down":{"src":"orion_tiles/orion_t_7d_%0y_%0x.jpg"},"front":{"src":"orion_tiles/orion_t_7f_%0y_%0x.jpg"},"height":398,"left":{"src":"orion_tiles/orion_t_7l_%0y_%0x.jpg"},"right":{"src":"orion_tiles/orion_t_7r_%0y_%0x.jpg"},"tilesize":480,"up":{"src":"orion_tiles/orion_t_7u_%0y_%0x.jpg"},"width":398}],"multilevel":true,"preview":{"src":"orion_tiles/orion_preview.jpg"},"projection":"cubic"},
 	"view": {
-	        "mode": "fitInWindow"
+	        "hfov": 8.84,
+	        "pan": 4.91,
+	        "tilt": 0
 	    }
 },
 "version": "4.2"
