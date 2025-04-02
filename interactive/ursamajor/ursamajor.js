@@ -25,13 +25,13 @@ PanoramaStudioViewerParams = {
 	        "zoom": 1
 	    },
 	"camera": {
-	        "maxpan": 10.137923583852512,
-	        "maxtilt": 4.932579196322501,
+	        "maxpan": 9.897909577054008,
+	        "maxtilt": 5.1622786874844815,
 	        "minpan": 0,
-	        "mintilt": -5.049775227675486
+	        "mintilt": -5.1051009916599055
 	    },
 	"id": "ursamajor",
-	"image":{"baseindex":1,"bitmap":[{"height":2217,"src":"ursamajor_tiles/ursamajor_t_1_%y_%x.jpg","tilesize":555,"width":2252},{"height":1109,"src":"ursamajor_tiles/ursamajor_t_2_%y_%x.jpg","tilesize":555,"width":1126},{"height":555,"src":"ursamajor_tiles/ursamajor_t_3_%y_%x.jpg","tilesize":555,"width":563}],"multilevel":true,"preview":{"src":"ursamajor_tiles/ursamajor_preview.jpg"},"projection":"planar"},
+	"image":{"baseindex":1,"bitmap":[{"height":2281,"src":"ursamajor_tiles/ursamajor_t_1_%y_%x.jpg","tilesize":550,"width":2199},{"height":1141,"src":"ursamajor_tiles/ursamajor_t_2_%y_%x.jpg","tilesize":550,"width":1100},{"height":571,"src":"ursamajor_tiles/ursamajor_t_3_%y_%x.jpg","tilesize":550,"width":550}],"multilevel":true,"preview":{"src":"ursamajor_tiles/ursamajor_preview.jpg"},"projection":"planar"},
 	"view": {
 	        "mode": "fitInWindow"
 	    }
