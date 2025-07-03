@@ -183,22 +183,30 @@ PanoramaStudioViewerParams = {
                 "caption": "-"
             },
             {
+                "id": "gyroItem",
+                "onclick": function(){  var gb = this.get('gyrobutton'); if (gb){ gb.onclick(); } else { this.viewer.enableGyroscope(!this.viewer.gyroscopeEnabled()); } },
+                "oninit": function(){  this.caption = this.viewer.tr('Gyroscope Control'); }
+            },
+            {
+                "caption": "-"
+            },
+            {
                 "onclick": function(){ window.open('http://www.tshsoft.com','_blank'); },
                 "oninit": function(){  this.caption = this.viewer.tr('About PanoramaStudio...'); }
             }
         ],
-        "onshow": function(){ var view1 = this.getItem('normalView'); if (view1){ view1.visible = (this.viewer.webglAvailable && this.viewer.fullEquirectangular()) ? true : false; } var view2 = this.getItem('littlePlanetView'); if (view2){ view2.visible = (this.viewer.webglAvailable && this.viewer.fullEquirectangular())?true:false; }  this.update(); },
+        "onshow": function(){ var view1 = this.getItem('normalView'); if (view1){ view1.visible = (this.viewer.webglAvailable && this.viewer.fullEquirectangular()) ? true : false; } var view2 = this.getItem('littlePlanetView'); if (view2){ view2.visible = (this.viewer.webglAvailable && this.viewer.fullEquirectangular())?true:false; } var gyro = this.getItem('gyroItem'); if (gyro){ gyro.visible = this.viewer.gyroAvailable?true:false; }  this.update(); },
         "style": "background-color: rgba(255,255,255,0.8); box-shadow: 4px 4px 4px rgba(0,0,0,0.5); border-radius: 3px;"
     },
 "events": {
         "id": "mainEvents",
-        "onexit": function(){ this.viewer.action('hideMessage'); },
-        "ongyroscopeavailable": function(available){ this.viewer.gyroAvailable = available; var o = this.get('gyrobutton'); if(!!o){ o.setVisible(available&&this.viewer.panoType()==0); } } ,
+        "onexit": function(){ this.viewer.action('hideMessage');  this.viewer.gyroWasEnabled = this.viewer.gyroAvailable&&this.viewer.gyroscopeEnabled();},
+        "ongyroscopeavailable": function(available){ this.viewer.gyroAvailable = available; var o = this.get('gyrobutton'); if(!!o){ o.setVisible(available&&this.viewer.panoType()==0); available&&o.onclick(); } } ,
         "ongyroscopetoggle": function(enabled){ this.viewer.action('updateGyroButton'); },
-        "oninit": function(){ var g = this.viewer.gallery(); this.viewer.hasGallery = ((!!g) && g.length>1);  },
+        "oninit": function(){ var g = this.viewer.gallery(); this.viewer.hasGallery = ((!!g) && g.length>1); this.viewer.checkForGyroscope(); },
         "onplay": function(){ var o = this.get('playbutton'); if (!!o){ o.sbackup = o.skin; o.shbackup = o.skinhover; o.sabackup = o.skinactive; o.skin = 'shadow(3,0,0,rgba(0,0,0,1));copy(defaultSkin,128,0,64,64,0,0,28,28)'; o.skinhover = 'shadow(3,0,0,rgba(0,0,0,1));copy(defaultSkin,128,0,64,64,0,0,28,28)'; o.skinactive = 'shadow(3,0,0,rgba(0,0,0,1));copy(defaultSkin,128,0,64,64,0,0,28,28)'; o.updateSkins(); } } ,
         "onresize": function(){ this.viewer.action('resizeMap');  },
-        "onscenechanged": function(){},
+        "onscenechanged": function(){ var o = this.get('gyrobutton'); if(!!o){ o.setVisible(this.viewer.gyroAvailable&&this.viewer.panoType()==0); this.viewer.gyroAvailable&&this.viewer.panoType()==0&&this.viewer.gyroWasEnabled&&o.onclick(); } if (this.viewer.isVRModeEnabled()){this.viewer.enableGyroscope(!0);}},
         "onstartaudio": function(senderId){ if (senderId=='gAudio'||senderId=='lAudio'){var o = this.get('audiobutton'); if (!!o){ o.skin = o.playskin; o.skinhover = o.playskinhover; o.skinactive = o.playskinactive; o.updateSkins(); }} } ,
         "onstop": function(){ var o = this.get('playbutton'); if (!!o){ o.skin = o.sbackup; o.skinhover = o.shbackup; o.skinactive = o.sabackup; o.updateSkins(); } } ,
         "onstopaudio": function(senderId){ if (senderId=='gAudio'||senderId=='lAudio'){var o = this.get('audiobutton'); if (!!o){ o.skin = o.pauseskin; o.skinhover = o.pauseskinhover; o.skinactive = o.pauseskinactive; o.updateSkins(); }} } ,
@@ -211,6 +219,7 @@ PanoramaStudioViewerParams = {
         "de": {
             "About PanoramaStudio...": "&Uuml;ber PanoramaStudio...",
             "Fullscreen": "Vollbild",
+            "Gyroscope Control": "Gyroskop-Steuerung",
             "LittlePlanet View": "LittlePlanet-Ansicht",
             "Normal View": "Normale Ansicht"
         }
