@@ -132,19 +132,6 @@ PanoramaStudioViewerParams = {
                 },
                 {
                     "align": "right",
-                    "id": "audiobutton",
-                    "index": 17,
-                    "onclick": function(){ var o = this.get('gAudio'); if (!o) o = this.get('lAudio'); if (!!o){ o.isPlaying()?o.pause():o.play(); }   },
-                    "onscenechanged": function(){ var o = this.get('gAudio')||this.get('lAudio'); this.setVisible(!!o); },
-                    "pauseskin": "shadow(3,0,0,rgba(0,0,0,1));copy(defaultSkin,0,256,64,64,0,0,28,28);",
-                    "playskin": "shadow(3,0,0,rgba(0,0,0,1));copy(defaultSkin,64,256,64,64,0,0,28,28);",
-                    "priority": 3,
-                    "skin": "shadow(3,0,0,rgba(0,0,0,1));copy(defaultSkin,0,256,64,64,0,0,28,28);",
-                    "xoff": 8,
-                    "yoff": 0
-                },
-                {
-                    "align": "right",
                     "id": "fullscreenButton",
                     "index": 16,
                     "onclick": function(){ this.viewer.toggleFullscreen();  } ,
