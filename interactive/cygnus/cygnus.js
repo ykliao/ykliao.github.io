@@ -25,13 +25,13 @@ PanoramaStudioViewerParams = {
 	        "zoom": 1
 	    },
 	"camera": {
-	        "maxpan": 119.94108777220602,
-	        "maxtilt": 25.078167463513708,
+	        "maxpan": 105.59787422497786,
+	        "maxtilt": 24.918069087688224,
 	        "minpan": 0,
-	        "mintilt": -13.96904877813837
+	        "mintilt": -16.348538529672265
 	    },
 	"id": "cygnus",
-	"image":{"baseindex":1,"bitmap":[{"height":46553,"src":"cygnus_tiles/cygnus_t_1_%000y_%000x.jpg","tilesize":728,"width":142996},{"height":23277,"src":"cygnus_tiles/cygnus_t_2_%000y_%000x.jpg","tilesize":728,"width":71498},{"height":11639,"src":"cygnus_tiles/cygnus_t_3_%000y_%000x.jpg","tilesize":728,"width":35749},{"height":5820,"src":"cygnus_tiles/cygnus_t_4_%000y_%000x.jpg","tilesize":728,"width":17875},{"height":2910,"src":"cygnus_tiles/cygnus_t_5_%000y_%000x.jpg","tilesize":728,"width":8938},{"height":1455,"src":"cygnus_tiles/cygnus_t_6_%000y_%000x.jpg","tilesize":728,"width":4469},{"height":728,"src":"cygnus_tiles/cygnus_t_7_%000y_%000x.jpg","tilesize":728,"width":2235}],"multilevel":true,"preview":{"src":"cygnus_tiles/cygnus_preview.jpg"},"projection":"planar"},
+	"image":{"baseindex":1,"bitmap":[{"height":56276,"src":"cygnus_tiles/cygnus_t_1_%000y_%000x.jpg","tilesize":880,"width":144006},{"height":28138,"src":"cygnus_tiles/cygnus_t_2_%000y_%000x.jpg","tilesize":880,"width":72003},{"height":14069,"src":"cygnus_tiles/cygnus_t_3_%000y_%000x.jpg","tilesize":880,"width":36002},{"height":7035,"src":"cygnus_tiles/cygnus_t_4_%000y_%000x.jpg","tilesize":880,"width":18001},{"height":3518,"src":"cygnus_tiles/cygnus_t_5_%000y_%000x.jpg","tilesize":880,"width":9001},{"height":1759,"src":"cygnus_tiles/cygnus_t_6_%000y_%000x.jpg","tilesize":880,"width":4501},{"height":880,"src":"cygnus_tiles/cygnus_t_7_%000y_%000x.jpg","tilesize":880,"width":2251}],"multilevel":true,"preview":{"src":"cygnus_tiles/cygnus_preview.jpg"},"projection":"planar"},
 	"view": {
 	        "mode": "fitInWindow"
 	    }
